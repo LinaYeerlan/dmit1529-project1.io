@@ -1,0 +1,79 @@
+/* font-family: 'Cabin Sketch', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Schoolbell', cursive; */
+
+body {
+    background-color: #637373;
+    color: #ffeadb;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5;
+
+    /* background-image: linear-gradient(white 1px, transparent 1px);  */
+    background-size: auto 24px;
+}
+
+article {
+    width: 650px;
+    margin: 0 auto;
+}
+
+body > section {
+    width: 960px;
+    margin: 0 auto 13.5rem;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 4.5rem;
+    line-height: 2.32;
+    color: #ff9a76;
+    font-weight: 700;
+}
+
+/* h1 span {
+    display: block;
+    text-align: right;
+} */
+
+body > section > div:first-of-type {
+    height: 100vh;
+    padding-top: 45%;
+}
+
+p {   
+    margin: 1.5rem 0;
+}
+
+h2 {
+    font-family: 'Schoolbell', cursive;
+    font-size: 3rem;
+    color: #ff9a76;
+    margin: 3rem 0;
+}
+
+article > section:not(:nth-of-type(1)) {
+    margin-bottom: 7.5rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #ffc49a;
+    line-height: 2;
+    margin-top: 3rem;
+}
+
+h2 ~ p span,
+div > p span {
+    color: #ff9a76;
+    font-size: 0.75rem;
+    margin-left: 0.75rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 ~ p span {
+    color: #ffc49a;
+    font-size: 0.75rem;
+    margin-left: 0.75rem;
+    font-family: 'Oswald', sans-serif;
+}
